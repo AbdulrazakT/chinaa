@@ -1,0 +1,37 @@
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 1rem;
+}
+
+#about {
+  margin-left: auto;
+}
+
+nav {
+  background-color: midnightblue;
+  color: white;
+  padding: 1.2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 75vh;
+}
+
+#section-1 {
+  background: cyan;
+}
+#section-2 {
+  background: magenta;
+}
+
+footer {
+  background-color: midnightblue;
+  color: white;
+  height: 13vh;
+}
